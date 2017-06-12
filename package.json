@@ -1,0 +1,33 @@
+{
+  "name": "baokaodashen",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "dev": "react-native start",
+    "run-android": "react-native start && react-native run-android",
+    "run-ios": "react-native start && react-native run-ios"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.45.1",
+    "react-native-dynamic-picker": "^1.0.6",
+    "react-native-htmlview": "^0.9.0",
+    "react-native-navbar": "^1.7.1",
+    "react-native-scrollable-tab-view": "^0.6.6",
+    "react-native-sglistview": "^0.4.3",
+    "react-native-sqlite-storage": "^3.3.1",
+    "react-native-vector-icons": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.4",
+    "react-native-root-toast": "^1.1.2",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
