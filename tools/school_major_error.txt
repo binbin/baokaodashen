@@ -1,0 +1,16 @@
+bogon:tools binbin$ node school_major.js
+%%%http://gkcx.eol.cn/schoolhtm/specialty/729/specialtyDetail56863.htm
+{ [Error: read ENETDOWN]
+  code: 'ENETDOWN',
+  errno: 'ENETDOWN',
+  syscall: 'read',
+  response: undefined }
+%%%http://gkcx.eol.cn/schoolhtm/specialty/746/specialtyDetail57634.htm
+{ [Error: read ENETDOWN]
+  code: 'ENETDOWN',
+  errno: 'ENETDOWN',
+  syscall: 'read',
+  response: undefined }
+
+
+  62284

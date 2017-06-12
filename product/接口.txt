@@ -1,0 +1,131 @@
+//大学
+http://data.api.gkcx.eol.cn/soudaxue/queryschool.html?messtype=jsonp&province=&schooltype=&page=1&size=50&keyWord1=&schoolprop=&schoolflag=&schoolsort=&schoolid=&callback=jQuery18300004892603028565645_1449752525096&_=1449752577527
+
+//专业
+http://data.api.gkcx.eol.cn/soudaxue/queryspecialty.html?messtype=jsonp&zycengci=&zytype=&page=1&size=50&keyWord2=&schoolsort=&callback=jQuery183027383950841613114_1449841005338&_=1449841005632
+
+//大学详情页
+http://gkcx.eol.cn/schoolhtm/schoolTemple/school31.htm
+
+//大学专业列表页
+http://gkcx.eol.cn/schoolhtm/specialty/specialtyList/specialty310.htm
+
+//大学专业详情页
+http://gkcx.eol.cn/schoolhtm/specialty/310/specialtyDetail102035.htm
+
+http://gkcx.eol.cn/schoolhtm/scores/provinceScores310_10008_10035_10036.xml
+http://gkcx.eol.cn/schoolhtm/scores/provinceScores310_10003_10035_10036.xml
+http://gkcx.eol.cn/schoolhtm/scores/provinceScores310_10028_10034_10036.xml
+http://gkcx.eol.cn/schoolhtm/scores/provinceScores310_10028_10034_10037.xml
+
+//大学分数线
+http://gkcx.eol.cn/schoolhtm/scores/provinceScores310_10008_10035_10036.xml
+学校Id_省份Id_理科10035&文科10034_一批10036&二批10037三批10038专科10039
+
+//大学专业分数线
+http://gkcx.eol.cn/commonXML/schoolSpecialPoint/schoolSpecialPoint310_10008_10035.xml
+http://gkcx.eol.cn/commonXML/schoolSpecialPoint/schoolSpecialPoint310_10003_10035.xml
+http://gkcx.eol.cn/commonXML/schoolSpecialPoint/schoolSpecialPoint310_10000_10034.xml
+学校Id_省份Id_理科10035&文科10034
+
+//招生计划入口页
+http://gkcx.eol.cn/schoolhtm/schoolInfo/310/10128/list_1.htm
+//招生计划网页版——不含特殊要求
+http://www.eol.cn/html/gkcx/jh2015/31/310.htm
+
+//录取规则
+http://gkcx.eol.cn/schoolhtm/schoolInfo/31/10076/detail.htm
+
+//招生章程
+http://gkcx.eol.cn/schoolhtm/schoolInfo/213/10071/436224.htm
+
+
+update b_area set code = 52  where province =    '贵州';
+update b_area set code = 22  where province =   '吉林';
+update b_area set code = 63  where province =   '青海';
+update b_area set code = 50  where province =   '重庆';
+update b_area set code = 53  where province =   '云南';
+update b_area set code = 62  where province =   '甘肃';
+update b_area set code = 64  where province =   '宁夏';
+update b_area set code = 44  where province =   '广东';
+update b_area set code = 71  where province =   '台湾';
+update b_area set code = 82  where province =   '澳门';
+update b_area set code = 81  where province =   '香港';
+update b_area set code = 23  where province =   '黑龙江';
+update b_area set code =15  where province =     '内蒙古';
+update b_area set code = 54  where province =   '西藏';
+update b_area set code = 65  where province =   '新疆';
+update b_area set code = 37  where province =   '山东';
+update b_area set code = 36  where province =   '江西';
+update b_area set code = 42  where province =   '湖北';
+update b_area set code = 14  where province =   '山西';
+update b_area set code = 21  where province =   '辽宁';
+update b_area set code = 32  where province =   '江苏';
+update b_area set code = 34  where province =   '安徽';
+update b_area set code = 51  where province =   '四川';
+update b_area set code = 12  where province =   '天津';
+update b_area set code = 31  where province =   '上海';
+update b_area set code = 11  where province =   '北京';
+update b_area set code = 33  where province =   '浙江';
+update b_area set code = 45  where province =   '广西';
+update b_area set code = 46  where province =   '海南';
+update b_area set code = 41  where province =   '河南';
+update b_area set code = 43  where province =   '湖南';
+update b_area set code = 61  where province =   '陕西';
+update b_area set code = 35  where province =   '福建';
+update b_area set code = 13  where province =   '河北';
+
+
+insert into b_batch(short_name,name,code) values('一批','本科一批',10036);
+insert into b_batch(short_name,name,code) values('二批','本科二批',10037);
+insert into b_batch(short_name,name,code) values('三批','本科三批',10038);
+insert into b_batch(short_name,name,code) values('专科','专科',10148);
+insert into b_batch(short_name,name,code) values('提前','提前',10149);
+
+'一批':'10036'
+'二批':'10037'
+'三批':'10038'
+'专科':'10148'
+'提前':'10149'
+
+
+insert into b_exam_type(name,code) values('文科',10034);
+insert into b_exam_type(name,code) values('理科',10035);
+insert into b_exam_type(name,code) values('综合',10090);
+insert into b_exam_type(name,code) values('艺术类',10091);
+insert into b_exam_type(name,code) values('体育类',10093);
+
+update b_area set eol_id='10008' where province='安徽';
+update b_area set eol_id='10145' where province='澳门';
+update b_area set eol_id='10003' where province='北京';
+update b_area set eol_id='10028' where province='重庆';
+update b_area set eol_id='10024' where province='福建';
+update b_area set eol_id='10023' where province='甘肃';
+update b_area set eol_id='10026' where province='贵州';
+update b_area set eol_id='10011' where province='广东';
+update b_area set eol_id='10012' where province='广西';
+update b_area set eol_id='10016' where province='河北';
+update b_area set eol_id='10017' where province='河南';
+update b_area set eol_id='10031' where  province='黑龙江';
+update b_area set eol_id='10021' where province='湖北';
+update b_area set eol_id='10022' where province='湖南';
+update b_area set eol_id='10019' where province='海南';
+update b_area set eol_id='10014' where province='江苏';
+update b_area set eol_id='10015' where province='江西';
+update b_area set eol_id='10004' where province='吉林';
+update b_area set eol_id='10027' where province='辽宁';
+update b_area set eol_id='10002' where province='内蒙古';
+update b_area set eol_id='10007' where province='宁夏';
+update b_area set eol_id='10030' where province='青海';
+update b_area set eol_id='10000' where province='上海';
+update b_area set eol_id='10009' where province='山东';
+update b_area set eol_id='10010' where province='山西';
+update b_area set eol_id='10029' where province='陕西';
+update b_area set eol_id='10005' where province='四川';
+update b_area set eol_id='10006' where province='天津';
+update b_area set eol_id='10013' where province='新疆';
+update b_area set eol_id='10025' where province='西藏';
+update b_area set eol_id='10020' where province='香港';
+update b_area set eol_id='10001' where province='云南';
+update b_area set eol_id='10146' where province='台湾';
+update b_area set eol_id='10018' where province='浙江';
